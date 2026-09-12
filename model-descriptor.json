@@ -1,11 +1,20 @@
 {
-  "modelName": "pothole-detector",
-  "modelVersion": "0.1.0-unprovisioned",
+  "modelName": "india-rdd2022-yolov12s",
+  "modelVersion": "2026.04.24-india-ft10-seed0",
   "runtimeFormat": "coreml",
   "classSetVersion": "road-hazard-v1",
   "artifact": "RoadHazard.mlpackage",
-  "sha256": null,
-  "datasetVersion": null,
-  "license": null,
-  "status": "AWAITING_LICENSED_EVALUATED_MODEL"
+  "sha256": "89a380c39360c0073b83b849a0253a3ad043d5631dbed547fdff3410e43c1760",
+  "datasetVersion": "RDD2022; India 10% fine-tune; seed 0",
+  "license": "CC-BY-4.0",
+  "source": "https://huggingface.co/SreekarAditya/yolo-rdd2022-benchmark",
+  "classes": ["Longitudinal", "Transverse", "Alligator", "Pothole"],
+  "captureClass": "Pothole",
+  "inputSize": "640x640",
+  "nmsEnabled": true,
+  "recommendedConfidenceThreshold": 0.10,
+  "reportedIndiaMap50": 0.2906,
+  "reportedIndiaFineTuneDataFraction": 0.10,
+  "evaluationStatus": "PUBLIC_BENCHMARK_ONLY; DEVICE_AND_LOCAL_ROAD_VALIDATION_REQUIRED",
+  "status": "BUNDLED_FOR_PILOT"
 }
