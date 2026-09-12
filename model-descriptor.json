@@ -1,0 +1,11 @@
+{
+  "modelName": "pothole-detector",
+  "modelVersion": "0.1.0-unprovisioned",
+  "runtimeFormat": "coreml",
+  "classSetVersion": "road-hazard-v1",
+  "artifact": "RoadHazard.mlpackage",
+  "sha256": null,
+  "datasetVersion": null,
+  "license": null,
+  "status": "AWAITING_LICENSED_EVALUATED_MODEL"
+}
